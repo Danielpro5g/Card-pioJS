@@ -28,9 +28,10 @@ body, a, li {
 }
 
 .home .content .title {
-  margin-top: 20px;
-  font-size: 22px;
-  width: 170px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 200px;
   text-align: center;
   color: #800080;
 }
@@ -43,17 +44,16 @@ body, a, li {
 
 .home .content a {
   text-align: center;
-  margin-top: 5px;
-  margin-top: 40px;
+  margin-top: 60px;
   text-decoration: none;
 }
 
 .home .content .btn {
   background-color: purple;
-  width: 250px;
-  height: 40px;
+  width: 290px;
+  height: 50px;
   border-radius: 5px;
-  padding-top: 9px;
+  padding-top: 13px;
   color: #fff;
   cursor: pointer;
   
