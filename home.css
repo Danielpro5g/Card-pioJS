@@ -11,27 +11,17 @@ body, a, li {
 
 .home {
   height: 100vh;
-  width: 100%;
-
-  background-image: url('./assets/fome.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100vw;
 }
 
-.home .card {
-  height: 90px;
-  width: 100%;
-  background-color:#c2121f;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  padding-top: 30px;
- 
-} 
-.home .card a {
-  text-decoration: none;
-  color: #fff;
-  display: inline;
-  padding: 30px 130px;
+.home .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home .content img {
+  width: 260px;
+  height: 260px;
 }
