@@ -1,20 +1,18 @@
 const ElementList = document.querySelector('#app ul');
 
 const todos = [
- {
-   Nome: 'Application',
-   idade: '18',
- },
- {
-  Nome: 'Aplication',
-  idade: '18',
-  }
+  'Produtos',
+  'Produtos',
+  'Produtos',
+  'Produtos',
+  'Produtos',
+
 ];
 
 function RenderTodos(){
   for(todo of todos){
     const TodoElement = document.createElement('li');
-    const TodoNome = document.createTextNode(todo.Nome);
+    const TodoNome = document.createTextNode(todo);
 
     TodoElement.appendChild(TodoNome);
     ElementList.appendChild(TodoElement);
