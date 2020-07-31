@@ -17,6 +17,7 @@ body, a, li {
 .home .content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100%;
 }
@@ -24,4 +25,37 @@ body, a, li {
 .home .content img {
   width: 260px;
   height: 260px;
+}
+
+.home .content .title {
+  margin-top: 20px;
+  font-size: 22px;
+  width: 170px;
+  text-align: center;
+  color: #800080;
+}
+
+.home .content .sub {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #8000809c;
+}
+
+.home .content a {
+  text-align: center;
+  margin-top: 5px;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.home .content .btn {
+  background-color: purple;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  padding-top: 9px;
+  color: #fff;
+  cursor: pointer;
+  
+
 }
